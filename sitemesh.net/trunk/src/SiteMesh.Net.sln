@@ -1,0 +1,45 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiteMesh", "SiteMesh\SiteMesh.csproj", "{F4F1C783-8457-469D-87CF-EF33B9524A70}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiteMesh.Parser", "SiteMesh.Parser\SiteMesh.Parser.csproj", "{20EA3D48-E096-4504-9BE0-EE21A3F0F6E9}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiteMesh.Asp", "SiteMesh.Asp\SiteMesh.Asp.csproj", "{725E5D20-F9F5-4F28-839A-29AE86042750}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiteMesh.UnitTests", "SiteMesh.UnitTests\SiteMesh.UnitTests.csproj", "{DC703988-01AE-43AF-8A1D-F83F27FBACCE}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{F4F1C783-8457-469D-87CF-EF33B9524A70}.Debug.ActiveCfg = Debug|.NET
+		{F4F1C783-8457-469D-87CF-EF33B9524A70}.Debug.Build.0 = Debug|.NET
+		{F4F1C783-8457-469D-87CF-EF33B9524A70}.Release.ActiveCfg = Release|.NET
+		{F4F1C783-8457-469D-87CF-EF33B9524A70}.Release.Build.0 = Release|.NET
+		{20EA3D48-E096-4504-9BE0-EE21A3F0F6E9}.Debug.ActiveCfg = Debug|.NET
+		{20EA3D48-E096-4504-9BE0-EE21A3F0F6E9}.Debug.Build.0 = Debug|.NET
+		{20EA3D48-E096-4504-9BE0-EE21A3F0F6E9}.Release.ActiveCfg = Release|.NET
+		{20EA3D48-E096-4504-9BE0-EE21A3F0F6E9}.Release.Build.0 = Release|.NET
+		{725E5D20-F9F5-4F28-839A-29AE86042750}.Debug.ActiveCfg = Debug|.NET
+		{725E5D20-F9F5-4F28-839A-29AE86042750}.Debug.Build.0 = Debug|.NET
+		{725E5D20-F9F5-4F28-839A-29AE86042750}.Release.ActiveCfg = Release|.NET
+		{725E5D20-F9F5-4F28-839A-29AE86042750}.Release.Build.0 = Release|.NET
+		{DC703988-01AE-43AF-8A1D-F83F27FBACCE}.Debug.ActiveCfg = Debug|.NET
+		{DC703988-01AE-43AF-8A1D-F83F27FBACCE}.Debug.Build.0 = Debug|.NET
+		{DC703988-01AE-43AF-8A1D-F83F27FBACCE}.Release.ActiveCfg = Release|.NET
+		{DC703988-01AE-43AF-8A1D-F83F27FBACCE}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
